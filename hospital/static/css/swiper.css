@@ -98,7 +98,7 @@
   -webkit-perspective: 1200px;
   perspective: 1200px;
 }
-.swiper-container-3d .swiper-wrapper,
+.swiper-container-3d .swiper-wrapper, 
 .swiper-container-3d .swiper-slide,
 .swiper-container-3d .swiper-slide-shadow-left,
 .swiper-container-3d .swiper-slide-shadow-right,

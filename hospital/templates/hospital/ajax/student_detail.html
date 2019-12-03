@@ -1,0 +1,42 @@
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="opening-hours">
+                        <h2 class="d-flex align-items-center">Access History</h2>
+                        <ul class="p-0 m-0">
+                            <li>Last Time Accessed - Thursday <span>8.00 - 19.00</span></li>
+                        </ul>
+                    </div>
+                    <div class="opening-hours">
+                        <h2 class="d-flex align-items-center">Medical History</h2>
+                        <ul class="p-0 m-0">
+                            <li>Sickness - Fever </span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="opening-hours">
+                        <h2 class="d-flex align-items-center">Profile Detail</h2>
+                        <img src="https://img.icons8.com/cotton/64/000000/person-male--v2.png" class="card" src="" width="100">
+                        <ul class="p-0 m-0">
+                            <li>Firstname <span>{{ student.firstname }}</span></li>
+                            <li>Surname <span>{{ stuent.lastname }}</span></li>
+                            <li>Othername <span>{{ student.othername }}</span></li>
+                            <li>Address <small>{{ student.address }}</small></li>
+                            <li>Phone <span>{{ student.phone }}</span></li>
+                            <li>Email <span>{{ student.email }}</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="opening-hours">
+                        <h2 class="d-flex align-items-center">School Detail</h2>
+                        <ul class="p-0 m-0">
+                            <li>Level <span>{{ student.level }}</span></li>
+                            <li>Department <span>{{ student.department }}</span></li>
+                            <li>Hall of Resident <span>{{ student.hall }}</span></li>
+                        </ul>
+                    </div>
+                </div>
+                 <br>
+            <button onclick='printData();' class="button gradient-bg">
+                Print
+            </button>

@@ -1,0 +1,13 @@
+{% for student in students %}
+<tr>
+  <th scope="row">1</th>
+  <td>{{ student.get_fullname }}</td>
+  <td>{{ student.level }}</td>
+  <td>{{ student.department }}</td>
+  <td>
+      <a href="#" class="view-detail" student-id="{{ student.id }}" style="color: yellow;">View</a>
+  </td>
+</tr>
+{% empty %}
+<tr>No student found !</tr>
+{% endfor %}
